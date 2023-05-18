@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanke Eatting</title>
+    <link rel="icon" href="/Pic/style.png" />
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="wrap">
+      <h1>Snake Eating</h1>
+      <div class="dashboard">
+        <div class="scoreArea">
+          <p>Game score:</p>
+          <p id="score">0</p>
+        </div>
+        <div class="recordArea">
+          <p>Browser record:</p>
+          <p id="record">0</p>
+        </div>
+      </div>
+      <div class="restart">
+        <button>Start a new game</button>
+      </div>
+      <div class="canvas">
+        <canvas id="canvas"></canvas>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
